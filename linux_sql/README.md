@@ -73,7 +73,7 @@ Throughout the implementation process, we paid close attention to ensuring robus
 
 By adhering to this well-structured implementation approach, we successfully developed an efficient solution for monitoring hardware and usage information within the Linux cluster environment. The resulting application empowers the LCA team with valuable insights for proactive resource planning and effective maintenance of the server cluster.
 ### Architecture
-![image info](assets/Linux VM Architecture.png)
+![image info](assets/Architecture.jpg)
 
 
 ### Scripts
