@@ -22,7 +22,7 @@
   "github_repo_root_url": "https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-KunjPatel03",
   "highlighted_projects": [
     {
-      "description": "A robust Relational Database Management System (RDBMS) to support SQL queries for performing CRUD operations and transactions on the data. The system incorporated a sophisticated parsing and validation mechanism utilizing complex regex expressions. A custom file format was implemented to efficiently store both the data and metadata associated with the RDBMS. Multiuser concurrent execution capabilities were integrated to enable simultaneous interactions with the RDBMS while maintaining data consistency. In addition, reverse engineering techniques were utilized to generate an Entity-Relationship Diagram (ERD) for a visual representation of the database structure. This comprehensive RDBMS solution empowers users to effectively manage their data and leverage the power of SQL queries.",
+      "description": "Developed a robust RDBMS from scratch using Java, providing support for SQL queries, CRUD operations, and transactions. Implemented a sophisticated parsing and validation mechanism utilizing complex regex expressions for accurate data processing. Designed a custom file format to efficiently store data and metadata. Incorporated multiuser concurrent execution capabilities to ensure data consistency during simultaneous interactions. Utilized reverse engineering techniques to generate an Entity-Relationship Diagram (ERD) for visual representation of the database structure. This project showcased my ability to create advanced software systems, empowering users to effectively manage their data and leverage the power of SQL queries.",
       "git_url": "https://github.com/KunjPatel03/RelationalDatabase",
       "name": "Relational Database Management System"
     },
@@ -37,40 +37,6 @@
       "description": "A user-friendly solution to efficiently manage a 10-server cluster. The solution allows server users to easily monitor hardware and usage information, ensuring smooth operation and maintenance. Implemented with bash scripts, it seamlessly integrates into existing workflows. PostgreSQL (psql) is chosen as the database technology for reliable data storage. The project is implemented within a Docker container for consistent execution and compatibility. Using Git version control, development progress is tracked. This monitoring solution empowers users to optimize resource allocation, enhancing stability and efficiency of the server cluster for seamless operations.",
       "git_url": "/linux_sql",
       "name": "Cluster Monitor"
-    },
-    {
-      "description": [
-        "Twitter App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.",
-        "JDBC App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.",
-        "Grep App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
-      ],
-      "git_url": "/core_java",
-      "name": "Core Java Apps"
-    },
-    {
-      "description": "",
-      "git_url": "/springboot",
-      "name": "Springboot App"
-    },
-    {
-      "description": "",
-      "git_url": "/python_data_anlytics",
-      "name": "Python Data Analytics"
-    },
-    {
-      "description": "",
-      "git_url": "/hadoop",
-      "name": "Hadoop"
-    },
-    {
-      "description": "",
-      "git_url": "/spark",
-      "name": "Spark"
-    },
-    {
-      "description": "",
-      "git_url": "/cloud_devops",
-      "name": "Cloud/DevOps"
     }
   ],
   "name": "Kunj Patel",
@@ -86,7 +52,7 @@
   "professional_experience": [
     {
       "company": "Jarvis",
-      "description": "Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis.",
+      "description": "Developed tailored solutions for database construction, maintenance, and monitoring, specializing in PostgresSQL and Docker Containers. Created efficient and robust databases, ensuring smooth operations and optimizing performance. Collaborated closely with clients to understand their database requirements and provided customized solutions. Optimized data structures, implemented security measures, and improved overall database performance. Developed monitoring mechanisms using shell scripting to track performance and address issues proactively. Provided technical guidance, integrated databases into applications, and stayed updated with industry advancements.",
       "duration": "2023-present",
       "title": "Data Engineer"
     },
@@ -99,7 +65,7 @@
     {
       "company": "Exxat Systems",
       "description": "Generated client-specific reports through the development of SQL scripts, resulting in a 40% reduction in report generation time and enhancing overall efficiency. Analyzed software issues to identify root causes and implemented technical resolutions, resulting in a 13% performance improvement. Conducted thorough product testing, promptly communicating faults to the QA team and devising effective workarounds for customers. Implemented cost-effective technology solutions by assessing requirements and ensuring clear communication with stakeholders. Contributed to streamlined processes, optimized performance, and improved customer satisfaction through proficient report generation, problem-solving, and effective communication.",
-      "duration": "2019-2019",
+      "duration": "2019",
       "title": "Jr. Product Support Analyst"
     }
   ],
@@ -130,5 +96,5 @@
       "Docker"
     ]
   },
-  "summary": "As a results-driven Data Engineer and Developer, I bring a strong academic background and a proven track record in the field. With a Master's degree in Applied Computer Science from Dalhousie University, I have developed a deep understanding of data engineering principles and techniques. Specializing in designing and implementing ETL pipelines and optimizing database schema and SQL queries, I have consistently delivered improved query performance and enhanced data accuracy. Proficient in Airflow, DBT, and Snowflake, I have successfully processed millions of records in real-time, ensuring data integrity and quality. My expertise extends to programming languages such as Python, Java, and SQL, as well as cloud technologies like AWS and Google Cloud. Committed to agile development methodologies and armed with strong problem-solving skills, I am dedicated to delivering high-quality solutions that align with business needs."
+  "summary": "With over two years of experience as a results-driven Data Engineer and Developer, I bring a strong academic background and a proven track record in the field. Armed with a Master's degree in Applied Computer Science from Dalhousie University, I have developed a deep understanding of data engineering principles and techniques. Specializing in designing and implementing ETL pipelines and optimizing database schema and SQL queries, I have consistently delivered improved query performance and enhanced data accuracy. Proficient in Airflow, DBT, and Snowflake, I have successfully processed millions of records in real-time, ensuring data integrity and quality. My expertise extends to programming languages such as Python, Java, and SQL, as well as cloud technologies like AWS and Google Cloud. Committed to agile development methodologies and armed with strong problem-solving skills, I am dedicated to delivering high-quality solutions that align with business needs."
 }
