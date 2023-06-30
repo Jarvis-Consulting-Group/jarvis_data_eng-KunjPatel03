@@ -10,6 +10,8 @@ public class JDBCExecutor {
         try{
             Connection connection = dbConnectionManager.getConnection();
             CustomerDAO customerDAO = new CustomerDAO(connection);
+
+//            Insert data to customer
             Customer customer = new Customer();
             customer.setFirstName("George");
             customer.setLastName("Washington");
@@ -20,7 +22,18 @@ public class JDBCExecutor {
             customer.setState("VA");
             customer.setZipCode("22121");
 
-            customerDAO.create(customer);
+//            Update inserted customer
+            Customer dbCustomer = customerDAO.create(customer);
+            System.out.println(dbCustomer);
+            dbCustomer = customerDAO.findById(dbCustomer.getId());
+            System.out.println(dbCustomer);
+            dbCustomer.setEmail("george.washington@wh.gov");
+            dbCustomer = customerDAO.update(dbCustomer);
+            System.out.println(dbCustomer);
+
+//            Delete last customer
+            customerDAO.delete(dbCustomer.getId());
+
         }catch (SQLException e){
             e.printStackTrace();
         }
