@@ -9,8 +9,11 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Date;
+import org.apache.log4j.Logger;
+
 
 public class OrderDAO extends DataAcessObject<Order> {
+    Logger logger = Logger.getLogger(CustomerDAO.class.getName());
 
     private final static String GET_BY_ID = "SELECT c.first_name, c.last_name, c.email, o.order_id, o.creation_date, " +
             "o.total_due, o.status, s.first_name, s.last_name, s.email, ol.quantity, p.code, p.name, p.size, " +
@@ -55,7 +58,7 @@ public class OrderDAO extends DataAcessObject<Order> {
             }
             order.setOrderLines(orderLines);
         }catch(SQLException e){
-            e.printStackTrace();
+            logger.error("An SQL exception occurred.", e);
             throw new RuntimeException(e);
         }
         return order;

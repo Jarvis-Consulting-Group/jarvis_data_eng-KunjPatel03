@@ -7,9 +7,11 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.List;
+import org.apache.log4j.Logger;
+
 
 public class CustomerDAO extends DataAcessObject<Customer> {
-
+    Logger logger = Logger.getLogger(CustomerDAO.class.getName());
     private static final String INSERT = "INSERT INTO customer (first_name, last_name," +
             "email, phone, address, city, state, zipcode) VALUES (?, ?, ?, ?, ?, ?, ?, ?)";
 
@@ -43,7 +45,7 @@ public class CustomerDAO extends DataAcessObject<Customer> {
                 customer.setZipCode(rs.getString("zipcode"));
             }
         }catch (SQLException e){
-            e.printStackTrace();
+            logger.error("An SQL exception occurred.", e);
             throw new RuntimeException(e);
         }
         return customer;
@@ -71,7 +73,7 @@ public class CustomerDAO extends DataAcessObject<Customer> {
             statement.execute();
             customer = this.findById(dto.getId());
         }catch (SQLException e){
-            e.printStackTrace();
+            logger.error("An SQL exception occurred.", e);
         }
         return customer;
     }
@@ -92,7 +94,7 @@ public class CustomerDAO extends DataAcessObject<Customer> {
             return this.findById(id);
 
         } catch (SQLException e) {
-            e.printStackTrace();
+            logger.error("An SQL exception occurred.", e);
         }
         return null;
     }
@@ -103,7 +105,7 @@ public class CustomerDAO extends DataAcessObject<Customer> {
             statement.setLong(1,id);
             statement.execute();
         }catch (SQLException e){
-            e.printStackTrace();
+            logger.error("An SQL exception occurred.", e);
             throw new RuntimeException();
         }
     }

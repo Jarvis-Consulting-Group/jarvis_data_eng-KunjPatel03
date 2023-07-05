@@ -1,10 +1,17 @@
 package ca.jrvs.apps.jdbc;
 
+
 import java.sql.Connection;
 import java.sql.SQLException;
 
+import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
+
 public class JDBCExecutor {
     public static void main(String[] args) {
+        String log4jConfigPath = "src/main/conf/log4j.properties";
+        PropertyConfigurator.configure(log4jConfigPath);
+        Logger logger = Logger.getLogger(JDBCExecutor.class.getName());
         DatabaseConnectionManager dbConnectionManager = new DatabaseConnectionManager("localhost","hplussport","postgres","password");
 
         try{
@@ -40,7 +47,7 @@ public class JDBCExecutor {
             System.out.println(order);
 
         }catch (SQLException e){
-            e.printStackTrace();
+            logger.error("An SQL exception occurred.", e);
         }
     }
 }
