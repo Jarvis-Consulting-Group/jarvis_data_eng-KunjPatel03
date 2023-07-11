@@ -125,9 +125,7 @@ The application primarily underwent database testing to ensure the proper functi
     ```sql
     SELECT COUNT(*) FROM customer;
     ```
-    Similar queries were executed for other tables to ensure the correct population
-
- of data.
+    Similar queries were executed for other tables to ensure the correct population of data.
 
 4. **JDBC Connection Verification**: The Java file was run to verify if the JDBC connection to the database was established successfully. This step ensured that the application could interact with the database using JDBC.
 
