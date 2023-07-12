@@ -37,6 +37,11 @@
       "description": "A user-friendly solution to efficiently manage a 10-server cluster. The solution allows server users to easily monitor hardware and usage information, ensuring smooth operation and maintenance. Implemented with bash scripts, it seamlessly integrates into existing workflows. PostgreSQL (psql) is chosen as the database technology for reliable data storage. The project is implemented within a Docker container for consistent execution and compatibility. Using Git version control, development progress is tracked. This monitoring solution empowers users to optimize resource allocation, enhancing stability and efficiency of the server cluster for seamless operations.",
       "git_url": "/linux_sql",
       "name": "Cluster Monitor"
+    },
+    {
+      "description": "The JDBC application is a robust system for performing essential CRUD operations (Create, Read, Update, Delete) on a database, utilizing the powerful JDBC API. It integrates a PostgreSQL database within a Docker container environment, with Maven as the package management and dependency resolution tool, and Git as the chosen version control system.",
+      "git_url": "/core_java/jdbc",
+      "name": "JDBC App"
     }
   ],
   "name": "Kunj Patel",
