@@ -39,9 +39,12 @@
       "name": "Cluster Monitor"
     },
     {
-      "description": "The JDBC application is a robust system for performing essential CRUD operations (Create, Read, Update, Delete) on a database, utilizing the powerful JDBC API. It integrates a PostgreSQL database within a Docker container environment, with Maven as the package management and dependency resolution tool, and Git as the chosen version control system.",
-      "git_url": "/core_java/jdbc",
-      "name": "JDBC App"
+      "description": [
+        "JDBC App: The JDBC application is a robust system for performing essential CRUD operations (Create, Read, Update, Delete) on a database, utilizing the powerful JDBC API. It integrates a PostgreSQL database within a Docker container environment, with Maven as the package management and dependency resolution tool, and Git as the chosen version control system.",
+        "Grep App: Grep is a Java-based application offering two efficient approaches for pattern searching within text files. The Stream-Based Approach utilizes Java Streams and functional programming to process large datasets with minimal memory usage, ideal for handling massive files. The Traditional Approach uses conventional file I/O and looping for moderate-sized files. Comprehensive unit testing with JUnit and Mockito ensures application correctness. Dockerizing the application facilitates easy distribution and deployment."
+      ],
+      "git_url": "/core_java/",
+      "name": "Java Applications"
     }
   ],
   "name": "Kunj Patel",
