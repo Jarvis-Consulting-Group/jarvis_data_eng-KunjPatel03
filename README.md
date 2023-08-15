@@ -6,7 +6,7 @@ With over two years of experience as a results-driven Data Engineer and Develope
 
 **Proficient:** Java, Python, SQL, Linux/Bash, Agile/Scrum, Git, Docker
 
-**Competent:** PySpark, JavaScript, React, Node, Snowflake, Amazon Web Services, CI/CD
+**Competent:** PySpark, Pandas, JavaScript, React, Node, Snowflake, Amazon Web Services, CI/CD
 
 **Familiar:** Spark, Kubernetes, Hadoop, Databricks, Google Cloud Platform
 
@@ -16,6 +16,13 @@ Project source code: [https://github.com/Jarvis-Consulting-Group/jarvis_data_eng
 
 
 **Cluster Monitor** [[GitHub](https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-KunjPatel03/tree/master/linux_sql)]: A user-friendly solution to efficiently manage a 10-server cluster. The solution allows server users to easily monitor hardware and usage information, ensuring smooth operation and maintenance. Implemented with bash scripts, it seamlessly integrates into existing workflows. PostgreSQL (psql) is chosen as the database technology for reliable data storage. The project is implemented within a Docker container for consistent execution and compatibility. Using Git version control, development progress is tracked. This monitoring solution empowers users to optimize resource allocation, enhancing stability and efficiency of the server cluster for seamless operations.
+
+**Java Applications** [[GitHub](https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-KunjPatel03/tree/master/core_java/)]:
+      
+  - JDBC App: The JDBC application is a robust system for performing essential CRUD operations (Create, Read, Update, Delete) on a database, utilizing the powerful JDBC API. It integrates a PostgreSQL database within a Docker container environment, with Maven as the package management and dependency resolution tool, and Git as the chosen version control system.
+  - Grep App: Grep is a Java-based application offering two efficient approaches for pattern searching within text files. The Stream-Based Approach utilizes Java Streams and functional programming to process large datasets with minimal memory usage, ideal for handling massive files. The Traditional Approach uses conventional file I/O and looping for moderate-sized files. Comprehensive unit testing with JUnit and Mockito ensures application correctness. Dockerizing the application facilitates easy distribution and deployment.
+
+**Python Data Analytics** [[GitHub](https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-KunjPatel03/tree/master/python_data_analytics)]: Utilized advanced data analytics techniques to analyze a company's transactional data and gain insights into customer shopping behavior, contributing to the development of targeted marketing strategies. Employing Python as the primary programming language, I harnessed the power of Pandas, Numpy, Matplotlib, and SQLAlchemy libraries to perform comprehensive data analysis. The entire analysis was conducted within a Jupyter notebook environment, where I seamlessly accessed data from both CSV files and a PostgreSQL database, sourced from the company's data warehouse. Operating on a Jupyter server, the notebook generated detailed visualizations, including plots illustrating monthly sales trends, order placements, customer counts, and, significantly, Recency, Frequency, and Monetary segmentation of the customer base. This project showcased my proficiency in data analysis, software tools, and database integration, enabling data-driven insights to drive strategic decision-making.
 
 
 ## Highlighted Projects
