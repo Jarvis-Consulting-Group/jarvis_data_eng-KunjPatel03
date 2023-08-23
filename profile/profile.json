@@ -50,6 +50,11 @@
       "description": "Utilized advanced data analytics techniques to analyze a company's transactional data and gain insights into customer shopping behavior, contributing to the development of targeted marketing strategies. Employing Python as the primary programming language, I harnessed the power of Pandas, Numpy, Matplotlib, and SQLAlchemy libraries to perform comprehensive data analysis. The entire analysis was conducted within a Jupyter notebook environment, where I seamlessly accessed data from both CSV files and a PostgreSQL database, sourced from the company's data warehouse. Operating on a Jupyter server, the notebook generated detailed visualizations, including plots illustrating monthly sales trends, order placements, customer counts, and, significantly, Recency, Frequency, and Monetary segmentation of the customer base. This project showcased my proficiency in data analysis, software tools, and database integration, enabling data-driven insights to drive strategic decision-making.",
       "git_url": "/python_data_analytics",
       "name": "Python Data Analytics"
+    },
+    {
+      "description": "Actively contributed to an ongoing Python data analytics project centered on optimizing core Hadoop components, including HDFS, MapReduce, and YARN, to efficiently process and analyze substantial datasets. This initiative provided exposure to enhancing Hadoop's performance within a distributed ecosystem. Leveraging Apache Hive and Zeppelin Notebook on the Google Cloud Platform, the project addressed real-world business challenges by executing powerful HQL statements for data exploration. Additionally, responsibilities encompassed strategic setup of a master node and two worker nodes, forming a robust Hadoop cluster to efficiently manage datasets exceeding 21 million records. Proficiency was gained in utilizing cutting-edge technologies such as Hadoop, Hive, YARN, and MapReduce, enhancing skills in optimizing data storage, processing, and analysis.",
+      "git_url": "/hadoop",
+      "name": "Hadoop"
     }
   ],
   "name": "Kunj Patel",
@@ -65,7 +70,7 @@
   "professional_experience": [
     {
       "company": "Jarvis",
-      "description": "Developed tailored solutions for database construction, maintenance, and monitoring, specializing in PostgresSQL and Docker Containers. Created efficient and robust databases, ensuring smooth operations and optimizing performance. Collaborated closely with clients to understand their database requirements and provided customized solutions. Optimized data structures, implemented security measures, and improved overall database performance. Developed monitoring mechanisms using shell scripting to track performance and address issues proactively. Provided technical guidance, integrated databases into applications, and stayed updated with industry advancements.",
+      "description": "Led the development of user-friendly solution for efficient cluster management, utilizing bash scripts, PostgreSQL and Docker. Created efficient and robust databases, ensuring smooth operations and optimizing performance. Collaborated closely with clients to understand their database requirements and provided customized solutions. Crafted robust Java applications, including a comprehensive JDBC system and a versatile Grep application for pattern searching. Leveraged advanced data analytics techniques to glean insights from transactional data, employing Pandas, Numpy, and Matplotlib within a Jupyter notebook environment. Significantly contributed to an ongoing initiative focused on optimizing core Hadoop components, utilizing Apache Hive and Zeppelin Notebook on Google Cloud Platform, and strategically configuring a master node and two worker nodes for streamlined data processing.",
       "duration": "2023-present",
       "title": "Data Engineer"
     },
@@ -78,7 +83,7 @@
     {
       "company": "Exxat Systems",
       "description": "Generated client-specific reports through the development of SQL scripts, resulting in a 40% reduction in report generation time and enhancing overall efficiency. Analyzed software issues to identify root causes and implemented technical resolutions, resulting in a 13% performance improvement. Conducted thorough product testing, promptly communicating faults to the QA team and devising effective workarounds for customers. Implemented cost-effective technology solutions by assessing requirements and ensuring clear communication with stakeholders. Contributed to streamlined processes, optimized performance, and improved customer satisfaction through proficient report generation, problem-solving, and effective communication.",
-      "duration": "2019",
+      "duration": "2019-2021",
       "title": "Jr. Product Support Analyst"
     }
   ],
