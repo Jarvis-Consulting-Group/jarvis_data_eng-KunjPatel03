@@ -8,7 +8,7 @@ In this project, we re-architect the data solution using Apache Spark, a framewo
 
 ### Dataset and Analytics Work
 
-We utilized a large dataset from LGS for our analytics work. The detailed analytics process can be found in the [Databricks Notebook](./notebook/Retail Data Analytics with PySpark.ipynb). In this notebook, we performed various tasks, including:
+We utilized a large dataset from LGS for our analytics work. The detailed analytics process can be found in the [Databricks Notebook](./notebook/Retail%20Data%20Analytics%20with%20PySpark.ipynb). In this notebook, we performed various tasks, including:
 
 - Calculating Recency, Frequency, and Monetary Value (RFM) scores for each customer using PySpark structured APIs.
 - Segmenting customers based on their RFM scores to tailor marketing strategies to different customer groups.
@@ -28,7 +28,7 @@ Our architecture for the Databricks environment includes:
 
 ### Dataset and Analytics Work
 
-We also conducted analytics work in the Zeppelin environment with Hadoop. The analytics process is documented in the [Zeppelin Notebook](./notebook/Spark Dataframe - WDI Data Analytics.json). In this notebook, we performed similar tasks as in the Databricks environment.
+We also conducted analytics work in the Zeppelin environment with Hadoop. The analytics process is documented in the [Zeppelin Notebook](./notebook/Spark%20Dataframe%20-%20WDI%20Data%20Analytics.json). In this notebook, we performed similar tasks as in the Databricks environment.
 
 ### Architecture
 
