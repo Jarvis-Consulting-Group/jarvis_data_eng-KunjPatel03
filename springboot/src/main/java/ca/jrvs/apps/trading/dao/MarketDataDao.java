@@ -37,7 +37,6 @@ public class MarketDataDao implements CrudRepository<IexQuote, String> {
   public MarketDataDao(HttpClientConnectionManager httpClientConnectionManager, MarketDataConfig marketDataConfig) {
     this.httpClientConnectionManager = httpClientConnectionManager;
     IEX_BATCH_URL = marketDataConfig.getHost() + IEX_BATCH_PATH + marketDataConfig.getToken();
-//    IEX_BATCH_URL = marketDataConfig.getHost() + IEX_BATCH_PATH + "pk_aba1a7c408d944ed8a31911a1554d76f";
     System.out.println(IEX_BATCH_URL);
 
   }
