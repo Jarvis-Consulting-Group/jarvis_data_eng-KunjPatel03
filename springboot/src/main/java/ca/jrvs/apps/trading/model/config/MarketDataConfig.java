@@ -1,4 +1,4 @@
-package ca.jrvs.apps.trading.model.domain.config;
+package ca.jrvs.apps.trading.model.config;
 
 public class MarketDataConfig {
     private String host;

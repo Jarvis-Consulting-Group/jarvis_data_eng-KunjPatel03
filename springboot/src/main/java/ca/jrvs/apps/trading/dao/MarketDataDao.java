@@ -1,7 +1,7 @@
 package ca.jrvs.apps.trading.dao;
 
 import ca.jrvs.apps.trading.model.domain.IexQuote;
-import ca.jrvs.apps.trading.model.domain.config.MarketDataConfig;
+import ca.jrvs.apps.trading.model.config.MarketDataConfig;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
@@ -183,6 +183,5 @@ public class MarketDataDao implements CrudRepository<IexQuote, String> {
   public <S extends IexQuote> Iterable<S> saveAll(Iterable<S> iterable) {
     throw new UnsupportedOperationException("Not implemented");
   }
-
 
 }
